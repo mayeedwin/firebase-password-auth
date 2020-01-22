@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Firebase Authentication - Email sign-in by Maye Edwin</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./Auth.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="./App.js" defer></script>
+  </head>
+  <body>
+    <main style="margin-top: 75px; padding-left: 15px; padding-right: 15px;">
+      <form style="max-width: 350px;" class="signin" autocomplete="on">
+        <img
+          width="150"
+          class="header-logo"
+          src="https://cdn.glitch.com/5a7ec5a8-6f9e-45f0-9e6d-19f98045f4b9%2FFirebase_Logo.svg?v=1579714744795"
+          alt="Firebase Authentication By Maye Edwin"
+        />
+        <p>
+          Kindly note that this App is available for
+          <b>Authorized users ONLY.</b>
+        </p>
+        <fieldset style="padding: none;">
+          <legend>Firebase App</legend>
+          <label>Enter Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Type your email..."
+            autocomplete="on"
+            required=""
+          />
+          <label>Enter Password</label>
+          <input
+            id="password"
+            type="password"
+            minlength="8"
+            placeholder="Type your password..."
+            title="Enter correct password!"
+            required=""
+          />
+          <br />
+          <button
+            style="padding: 5px 10px 5px 10px; 
+                max-width: 100px;"
+            class="submit"
+            type="submit"
+          >
+            Login
+          </button>
+        </fieldset>
+        <div class="info"></div>
+        <div class="desc">
+          <p>
+            By continuing, you are indicating that you accept our
+            <a href="./" target="_blank">Terms of Service</a> and
+            <a href="./" target="_blank">Privacy Policy</a>.
+          </p>
+          <p>
+            Platform built by
+            <a href="https://maye.pwafire.org" target="_blank"><b>Maye Edwin</b></a>
+          </p>
+        </div>
+      </form>
+    </main>
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+    <script src="./Auth.js"></script>
+    <script src="./_config/Firebase.js"></script>
+  </body>
+</html>
