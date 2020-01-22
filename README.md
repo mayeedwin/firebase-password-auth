@@ -1,8 +1,7 @@
-Firebase Authentication Email Sign-in Boilerplate
+Firebase Password Authentication
 =================
 
-
-
+You can use Firebase Authentication to let your users authenticate with Firebase using their email addresses and passwords, and to manage your app's password-based accounts. This Boillerplate is a Signin one, where your App users can easily login to your App.
 
 Setting up
 ------------
@@ -26,7 +25,20 @@ Authentication script.
 Firebase initialization
 ------------------------
 
-Make sure to add Firebase values to `_/config/Firebase.js` as shown below;
+## Before you begin
+
+  1. [Add Firebase](https://firebase.google.com/docs/web/setup) to your JavaScript project.
+  
+  2. If you haven't yet connected your app to your Firebase project, do so from the Firebase console.
+  
+  3. Enable Email/Password sign-in:
+  
+   a) In the [Firebase console](https://console.firebase.google.com/), open the Auth section.
+    
+   b) On the Sign in method tab, enable the **Email/password** sign-in method and click Save.
+   You can manually add users in the Authentication tab, set their passwords!
+   
+Make sure to add Firebase values to `_/config/Firebase.js` as shown below or as in **step 1.**
 
 ```js
 
