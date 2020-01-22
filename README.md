@@ -1,7 +1,7 @@
 Firebase Password Authentication
 =================
 
-You can use Firebase Authentication to let your users authenticate with Firebase using their email addresses and passwords, and to manage your app's password-based accounts. This Boillerplate is a Signin one, where your App users can easily login to your App.
+You can use [Firebase Authentication](https://firebase.google.com/products/auth) to let your users authenticate with Firebase using their email addresses and passwords, and to manage your app's password-based accounts. This Boillerplate is a Signin one, where your App users can easily login to your App.
 
 Setting up
 ------------
