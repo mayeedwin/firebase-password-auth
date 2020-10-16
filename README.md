@@ -43,7 +43,7 @@ Make sure to add Firebase values to `_/config/Firebase.js` as shown below or as 
 ```js
 
   // Initialize Firebase
-  let config = {
+  const config = {
     apiKey: "#VALUE",
     authDomain: "#VALUE",
     databaseURL: "#VALUE",
